@@ -3,7 +3,8 @@
   "version": "19.12.2",
   "private": true,
   "scripts": {
-    "test:ios-debug": "detox test --configuration ios.sim.debug --reuse"
+    "test:ios-debug": "detox test --configuration ios.sim.debug --reuse",
+    "test:ios-release": "detox test --configuration ios.sim.release --reuse"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
