@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": [ "ES6", "DOM" ],
+    "sourceMap": true,
+    "importHelpers": true,
+    "noEmit": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "jest", "detox"],
+    "typeRoots": ["./node_modules/@types"],
+    "resolveJsonModule": true
+  },
+  "include": [
+    "e2e/*.ts",
+    "e2e/tests/*.ts"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "demo-react-native-jest",
+  "version": "19.12.2",
+  "private": true,
+  "scripts": {
+    "test:ios-debug": "detox test --configuration ios.sim.debug --reuse"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "detox": "^19.12.2",
+    "jest": "^28.0.0",
+    "sanitize-filename": "^1.6.1",
+    "ts-jest": "^28.0.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "tslib": "^2.0.3"
+  }
+}
